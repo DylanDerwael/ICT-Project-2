@@ -1,0 +1,208 @@
+ /**
+ * Admin
+ *
+ * @package             De Opvoedingswinkel
+ * @author  		David Defossez
+ * @author  		Dylan Derwael
+ * @copyright (c)       2013, KHLIM-ict
+ *
+ *de class .sub toe kenen aan elementen die je als standaard onzichtbaar wilt maken
+ *      bv.--> <div id="x" class="sub"></div>
+ *de class text is voor alle textboxe de zelfde groote te geven
+ */
+
+root {
+        display: block;
+}
+
+body {
+    
+    font-family: Century Gothic, sans-serif;
+    background-color: #e4e4e4;
+    height: 100%;   
+    margin: 0;
+}
+
+div.menu{
+        padding-left: 0em;
+        text-align: center;
+}
+
+b{
+        color: #ff0033;
+        font-size: 1.3em;
+        font : Times New Roman;
+}
+
+.sub{
+        display: none;
+        padding-left: 2em;
+	margin: 1em; 
+}
+
+.text,.hideText{
+        width: 10em; 
+        text-align:center;
+        margin-left:0.5em;
+}
+.hideText{
+    display:none;
+}
+
+.kijkeens{
+    margin-left:10px;
+    width: 7em;
+}
+
+table,th,td
+{
+       border:1px solid black;
+       text-align:center;       
+}
+
+.opties{
+    color:#06c;
+    text-align: left;
+}
+
+header{
+    background-color: #871f1a;
+    text-align: center;
+    color : #ffffff;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    height: 1.5em;
+    width: 100%;
+    background-color: #871f1a;
+    font-size: 50pt;
+}
+
+.content{
+    height: 100%;   
+    padding-left: 36%;
+    margin: 0;
+}
+
+footer{
+    background-color: #871f1a;       
+    color : #ffffff;  /*kleur footer tekst */
+    text-align: center;
+    font-size: 14pt;
+    /*position: absolute;*/
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background-color: #871f1a;
+    margin-top: 3em;
+}
+
+h5{
+    font-size: 12pt;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+input /* alle inputvelden krijgen een passende achtergrondkleur, ipv wit. */
+{
+color: #000000;
+background: #efeded;
+border: 1px solid #aeadad;
+}
+
+.menuItems{
+    color: #ffffff;
+    width: 420px;   
+    background-color: #871f1a;
+    font-size: 20pt;   
+    height, #menuItemInfo, #menuItemSpelk, #menuItemDienst, #menuItemAndereopv, #menuItemResult: 50px;
+    margin: 10px;    
+    padding-top: 20px;
+    /* afronding + schaduw*/
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+    text-align: center;
+}
+
+.menu{
+    color: #ffffff;
+    width: 420px;   
+    text-align: center;
+    background-color: #871f1a;
+    font-size: 20pt;   
+    height: 50px;
+    margin: 10px;    
+    padding-top: 20px;
+    /* afronding + schaduw*/
+    -moz-border-radius: 10px;
+    border-radius: 5px;   
+    box-shadow: 5px 5px 10px #888888;
+}
+#subHide1,#subHide2{
+    display: none;
+}
+.subMenuItems{
+    
+    color: #ffffff;
+    width: 220px;   
+    background-color: #871f1a;
+    font-size: 20pt; 
+    text-align: center;
+    padding: 0;
+    height: 50px;
+    margin: 10px; 
+    margin-left: 100px;
+     /*afronding + schaduw*/
+    -moz-border-radius: 10px;
+    border-radius: 5px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 10px #888888;
+}
+#back{
+    float:left;
+    margin-left:20px;
+}
+#logoff{
+    float:right;
+    margin-right:20px;
+}
+#logoff,#back
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#871f1a 0%,
+		#870900 50%,
+		#e6ffe4);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#871f1a),
+		color-stop(0.50, #870900),
+		to(#e6ffe4));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+a:visited {color: #ffffff; text-decoration: none;}
+a:link{color: #ffffff; font-size: 16px; text-decoration: none;}    
+a:active{color: #ffffff; font-size: 16px; text-decoration: none;}    
+a:hover{ font-size: 18px;}

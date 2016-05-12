@@ -1,0 +1,60 @@
+ /**
+ * Admin
+ *
+ * @package             De Opvoedingswinkel
+ * @author  		David Defossez
+ * @author  		Dyln Derwael
+ * @copyright (c)       2013, KHLIM-ict
+ *
+ *de class .sub toe kenen an elementen die je als standaard onzichtbaar wilt maken
+ *      bv.--> <div id="x" class="sub"></div>
+ *de class text is voor alle textboxe de zelfde groote te geven
+ */
+
+root {
+        display: block;
+}
+body {
+	font:calibri;
+	font-family: Arial,Helvetica,sans-serif;
+        
+}
+div{
+	padding-left: 2em;
+	margin: 1em;        
+}
+div.menu{
+        padding-left: 0em;
+        text-align: center;
+}
+b{
+        color: #ff0033;
+}
+.sub{
+        display: none;
+}
+.text{
+        width: 7em; 
+        text-align:center;
+        margin-left:0.5em;
+}
+.kijkeens{
+    margin-left:10px;
+    width: 7em;
+}
+table,th,td
+{
+       border:1px solid black;
+       text-align:center;       
+}
+.opties{
+    color:#06c;
+    text-align: left;
+}
+footer{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+
